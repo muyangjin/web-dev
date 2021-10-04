@@ -1,0 +1,52 @@
+.zindex-bring-to-front {
+    z-index: 10;
+}
+
+.zindex-put-back {
+    z-index: 5;
+}
+
+.wd-rounded-start {
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.wd-rounded-end {
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.input-group-text {
+    background-color: white;
+    border-right: none;
+}
+
+.form-control {
+    border-left: none;
+}
+
+.img-caption-bottom-left-corner {
+    position: absolute;
+    bottom: -1rem;
+    left: .5rem;
+    color: #fff;
+    font-size: 35px;
+}
+
+.font-main {
+    font-weight: bold;
+}
+
+.font-secondary {
+    color: grey;
+}
+
+.post-img-dimension {
+    width: 100px;
+    height: 100px;
+}
+
+.float-right {
+    float: right;
+}
+

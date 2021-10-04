@@ -1,0 +1,79 @@
+.wd-dimension-searchbar {
+    width: calc(100vw - 100px);
+    height: 50px;
+}
+
+.wd-dimension-searchbar-input {
+    height: 45px;
+    width: calc(100vw - 200px);
+}
+
+.wd-dimension-hyperlink-tab {
+    width: 100%;
+    height: 50px;
+}
+
+.wd-dimension-hyperlink-tab-each {
+    height: 200px;
+}
+
+.wd-dimension-divider {
+    height: 20px;
+    width: 100%;
+}
+
+.wd-dimension-post {
+    height: 100px;
+    width: 100%;
+}
+
+.wd-dimension-post-w-pic {
+    height: 126px;
+    width: 100%;
+}
+
+
+.wd-border-hyperlink-tab-highlighted {
+    border-bottom: solid 3px #1da1f2;
+}
+
+
+.wd-font-searchbar-input {
+    font-size: 25px;
+    color: white;
+}
+
+.wd-font-hyperlink-tag-highlighted {
+    font-size: 15px;
+    color: #1da1f2;
+    font-weight: bold;
+}
+
+.wd-font-hyperlink-tag {
+    font-size: 15px;
+    color: #6e767d;
+    font-weight: bold;
+}
+
+.wd-font-post-subinfo {
+    font-size: 13px;
+    color: #6e767d;
+}
+
+.wd-font-post-title {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-font-post-author {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.wd-padding-top-16px-bottom-13px {
+    padding-top: 16px;
+    padding-bottom: 13px;
+}

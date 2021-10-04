@@ -1,0 +1,64 @@
+
+.wd-dimension-title-bar {
+    height: 100px;
+    width: 100%;
+}
+
+
+.wd-dimension-icons {
+    height: 15px;
+}
+
+.wd-dimension-text {
+    max-width: 504px;
+}
+
+.wd-dimension-text-in-link {
+    width: 480px;
+}
+
+.wd-dimension-icon {
+    width: 126px;
+}
+
+.wd-dimension-avatar {
+    height: 100%;
+    width: 66px;
+}
+
+.wd-dimension-content {
+    height: 100%;
+    width: calc(100vw - 100px);
+}
+
+.wd-font-title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-font-title-handle {
+    font-size: 13px;
+    color: #6e767d;
+}
+
+.wd-font-bookmark-author {
+    font-size: 15px;
+    color: white;
+}
+
+.wd-font-bookmark-author-handle {
+    font-size: 15px;
+    color: #6e767d;
+}
+
+.wd-font-bookmark-context {
+    font-size: 15px;
+    color: white;
+}
+
+.wd-font-bookmark-liked {
+    font-size: 15px;
+    color: #e0255e;
+}
+
