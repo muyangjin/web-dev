@@ -5,7 +5,7 @@
     <title>Explore</title>
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
-    <link href="explore.css" rel="stylesheet">
+    <link href="explore-2.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -21,11 +21,11 @@
             <div class = "col-2 col-lg-1 col-xl-2">
 
                 <ul class="list-group">
-                    <li class="list-group-item list-group-item-action">
+                    <li class="list-group-item list-group-item-action remove-border">
                         <i class="fab fa-twitter"></i>
                     </li>
 
-                    <li class="list-group-item list-group-item-action">
+                    <li class="list-group-item list-group-item-action remove-border">
                         <div class="row">
                             <div class="col-12 col-xl-2">
                                 <i class="fa fa-home"></i>
@@ -36,7 +36,7 @@
                         </div>
                     </li>
 
-                    <li class="list-group-item active list-group-item-action">
+                    <li class="list-group-item active list-group-item-action remove-border">
                         <div class="row">
                             <div class="col-12 col-xl-2">
                                 <i class="fa fa-hashtag"></i>
@@ -47,7 +47,7 @@
                         </div>
                     </li>
 
-                    <li class="list-group-item list-group-item-action">
+                    <li class="list-group-item list-group-item-action remove-border">
                         <div class="row">
                             <div class="col-12 col-xl-2">
                                 <i class="fa fa-bell"></i>
@@ -58,7 +58,7 @@
                         </div>
                     </li>
 
-                    <li class="list-group-item list-group-item-action">
+                    <li class="list-group-item list-group-item-action remove-border">
                         <div class="row">
                             <div class="col-12 col-xl-2">
                                 <i class="fa fa-envelope"></i>
@@ -69,7 +69,7 @@
                         </div>
                     </li>
 
-                    <li class="list-group-item list-group-item-action">
+                    <li class="list-group-item list-group-item-action remove-border">
                         <div class="row">
                             <div class="col-12 col-xl-2">
                                 <i class="fa fa-bookmark"></i>
@@ -80,7 +80,7 @@
                         </div>
                     </li>
 
-                    <li class="list-group-item list-group-item-action">
+                    <li class="list-group-item list-group-item-action remove-border">
                         <div class="row">
                             <div class="col-12 col-xl-2">
                                 <i class="fa fa-list"></i>
@@ -91,7 +91,7 @@
                         </div>
                     </li>
 
-                    <li class="list-group-item list-group-item-action">
+                    <li class="list-group-item list-group-item-action remove-border">
                         <div class="row">
                             <div class="col-12 col-xl-2">
                                 <i class="fa fa-user"></i>
@@ -102,7 +102,7 @@
                         </div>
                     </li>
 
-                    <li class="list-group-item list-group-item-action">
+                    <li class="list-group-item list-group-item-action remove-border">
                         <div class="row">
                             <div class="col-12 col-xl-2">
                                 <i class="fa fa-ellipsis-h"></i>
@@ -116,7 +116,7 @@
                 </ul>
 
                 <div class="d-grid ">
-                    <button class="btn btn-primary mt-2 rounded-pill">
+                    <button class="btn btn-primary mt-2 rounded-pill bg-color-twitter-blue">
                         Tweet
                     </button>
                 </div>
@@ -125,39 +125,45 @@
             </div>
 
             <div class = "col-10 col-lg-7 col-xl-6">
-                <div class = "row">
-                    <div class = "col-10 col-lg-11 ">
-                        <div class="input-group">
-                            <span class="input-group-text wd-rounded-start"><i class="fas fa-search"></i></span>
-                            <input type="text"
-                                   class="form-control wd-rounded-end"
-                                   placeholder="Search Twitter">
+                <ul class="list-group">
+                    <li class="list-group-item remove-border left-right-border pt-0 pb-0">
+                        <div class = "row align-items-center">
+                            <div class = "col-10 col-lg-11 ">
+                                <div class="input-group">
+                                    <span class="input-group-text wd-rounded-start"><i class="fas fa-search"></i></span>
+                                    <input type="text"
+                                           class="form-control wd-rounded-end"
+                                           placeholder="Search Twitter">
+                                </div>
+                            </div>
+                            <div class = "col-2 col-lg-1 text-center">
+                                <a href = "#">
+                                    <i class="fa fa-cog fa-1x fg-color-light-grey"></i>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class = "col-2 col-lg-1">
-                        <a href = "#">
-                            <i class="fa fa-cog fa-2x"></i>
-                        </a>
-                    </div>
-                </div>
-                <ul class="nav nav-tabs mt-2">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">For you</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trending</a>
+
+                    <li class="list-group-item remove-border left-right-border p-0 mb-0">
+                        <ul class="nav nav-tabs mt-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">For you</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sports</a>
+                            </li>
+                            <li class="nav-item d-none d-md-block">
+                                <a class="nav-link" href="#">Entertainment</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sports</a>
-                    </li>
-                    <li class="nav-item d-none d-md-block">
-                        <a class="nav-link" href="#">Entertainment</a>
-                    </li>
-                </ul>
-                <ul class="list-group mt-2">
+
                     <li class="list-group-item p-0">
                         <img src="../../media/bootstrap/spacex_starship.jpeg" class="img-fluid" alt="...">
                         <p class="img-caption-bottom-left-corner">SpaceX's Starship</p>
@@ -231,13 +237,13 @@
             </div>
 
             <div class = "d-none d-lg-block col-lg-4">
-                <ul class="list-group">
-                    <li class="list-group-item">
+                <ul class="list-group wd-rounded-15px">
+                    <li class="list-group-item bg-color-dark-grey font-follow-title">
                         Who to follow
                     </li>
 
-                    <li class="list-group-item ">
-                        <div class="row">
+                    <li class="list-group-item bg-color-dark-grey">
+                        <div class="row align-items-center">
                             <div class="col-lg-2">
                                 <img src = "../../media/bootstrap/bookmarks-author1.png",
                                      class="follow-img-dimension rounded-circle">
@@ -245,17 +251,18 @@
                             <div class="col-lg-6 col-xl-7">
                                 <span class="font-main">Java</span>
                                 <i class="fa fa-check-circle"></i><br>
-                                @Java
+                                <span class="font-secondary">@Java</span>
+
                             </div>
                             <div class="col-lg-4 col-xl-3 ">
-                                    <button class="btn btn-primary rounded-pill mt-1">
+                                    <button class="btn btn-primary rounded-pill font-follow-button">
                                         Follow
                                     </button>
                             </div>
                         </div>
                     </li>
-                    <li class="list-group-item ">
-                        <div class="row">
+                    <li class="list-group-item bg-color-dark-grey">
+                        <div class="row align-items-center">
                             <div class="col-lg-2">
                                 <img src = "../../media/bootstrap/bookmarks-author1.png",
                                      class="follow-img-dimension rounded-circle">
@@ -263,17 +270,18 @@
                             <div class="col-lg-6 col-xl-7">
                                 <span class="font-main">Relativity Space</span>
                                 <i class="fa fa-check-circle"></i><br>
-                                @relativityspace
+                                <span class="font-secondary">@relativityspace</span>
+
                             </div>
                             <div class="col-lg-4 col-xl-3 ">
-                                <button class="btn btn-primary rounded-pill mt-1">
+                                <button class="btn btn-primary rounded-pill font-follow-button">
                                     Follow
                                 </button>
                             </div>
                         </div>
                     </li>
-                    <li class="list-group-item ">
-                        <div class="row">
+                    <li class="list-group-item bg-color-dark-grey">
+                        <div class="row align-items-center">
                             <div class="col-lg-2">
                                 <img src = "../../media/bootstrap/bookmarks-author1.png",
                                      class="follow-img-dimension rounded-circle">
@@ -281,17 +289,18 @@
                             <div class="col-lg-6 col-xl-7">
                                 <span class="font-main">Virgin Galactic</span>
                                 <i class="fa fa-check-circle"></i><br>
-                                @virgingalactic
+                                <span class="font-secondary">@virgingalactic</span>
+
                             </div>
                             <div class="col-lg-4 col-xl-3 ">
-                                <button class="btn btn-primary rounded-pill mt-1">
+                                <button class="btn btn-primary rounded-pill font-follow-button">
                                     Follow
                                 </button>
                             </div>
                         </div>
                     </li>
-                    <li class="list-group-item ">
-                        <div class="row">
+                    <li class="list-group-item bg-color-dark-grey">
+                        <div class="row align-items-center">
                             <div class="col-lg-2">
                                 <img src = "../../media/bootstrap/bookmarks-author1.png",
                                      class="follow-img-dimension rounded-circle">
@@ -299,17 +308,18 @@
                             <div class="col-lg-6 col-xl-7">
                                 <span class="font-main">NASA</span>
                                 <i class="fa fa-check-circle"></i><br>
-                                @NASA
+                                <span class="font-secondary">@NASA</span>
+
                             </div>
                             <div class="col-lg-4 col-xl-3 ">
-                                <button class="btn btn-primary rounded-pill mt-1">
+                                <button class="btn btn-primary rounded-pill font-follow-button">
                                     Follow
                                 </button>
                             </div>
                         </div>
                     </li>
-                    <li class="list-group-item ">
-                        <div class="row">
+                    <li class="list-group-item bg-color-dark-grey">
+                        <div class="row align-items-center">
                             <div class="col-lg-2">
                                 <img src = "../../media/bootstrap/bookmarks-author1.png",
                                      class="follow-img-dimension rounded-circle">
@@ -317,10 +327,11 @@
                             <div class="col-lg-6 col-xl-7">
                                 <span class="font-main">Tesla</span>
                                 <i class="fa fa-check-circle"></i><br>
-                                @Tesla
+                                <span class="font-secondary">@Tesla</span>
+
                             </div>
                             <div class="col-lg-4 col-xl-3 ">
-                                <button class="btn btn-primary rounded-pill mt-1">
+                                <button class="btn btn-primary rounded-pill font-follow-button">
                                     Follow
                                 </button>
                             </div>

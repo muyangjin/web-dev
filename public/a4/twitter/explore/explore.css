@@ -1,3 +1,39 @@
+/*body {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
+
+/*.list-group-item {*/
+/*    color: #D9D9D9;*/
+/*    background-color: black;*/
+/*}*/
+
+/*.list-group-item.active {*/
+/*    font-weight: bold;*/
+/*    z-index: 2;*/
+/*    color: #D9D9D9;*/
+/*    background-color: black;*/
+/*    border-color: black;*/
+/*}*/
+
+/*.form-control {*/
+/*    color: #212327;*/
+/*    background-color: #212327;*/
+/*    border: 0;*/
+/*    -webkit-appearance: none;*/
+/*    -moz-appearance: none;*/
+/*    appearance: none;*/
+/*    border-radius: 0;*/
+/*    transition: none;*/
+/*}*/
+
+/*.input-group-text {*/
+/*    background-color: #212327;*/
+/*    border-right: none;*/
+/*    border: 0;*/
+/*    color: #6e767d;*/
+/*}*/
+
 .zindex-bring-to-front {
     z-index: 10;
 }
@@ -48,5 +84,14 @@
 
 .float-right {
     float: right;
+}
+
+.follow-img-dimension {
+    width: 45px;
+    height: 45px;
+}
+
+.bg-color-twitter-blue {
+    background-color: #1da1f2;
 }
 
