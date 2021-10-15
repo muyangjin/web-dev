@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.list-group-item {
+    color: #D9D9D9;
+    background-color: black;
+}
+
+.list-group-item.active {
+    font-weight: bold;
+    z-index: 2;
+    color: #D9D9D9;
+    background-color: black;
+    border-color: black;
+}
+
+.form-control {
+    color: #212327;
+    background-color: #212327;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    transition: none;
+}
+
+.input-group-text {
+    background-color: #212327;
+    border-right: none;
+    border: 0;
+    color: #6e767d;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #6e767d;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    margin-bottom: 0;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: 0;
+}
+
+.nav-tabs .nav-link.active {
+    color: #D9D9D9;
+    background-color: black;
+    border: none;
+    border-bottom: 3px solid #1da1f2;
+    font-weight: bold;
+    padding-bottom: calc(.5rem - 3px);
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.list-group-item {
+    border: 1px solid #212327;
+}
+
+.zindex-bring-to-front {
+    z-index: 10;
+}
+
+.zindex-put-back {
+    z-index: 5;
+}
+
+.wd-rounded-start {
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.wd-rounded-end {
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+/*.input-group-text {*/
+/*    background-color: white;*/
+/*    border-right: none;*/
+/*}*/
+
+.form-control {
+    border-left: none;
+}
+
+.img-caption-bottom-left-corner {
+    position: absolute;
+    bottom: -1rem;
+    left: .5rem;
+    color: #fff;
+    font-size: 35px;
+}
+
+.font-main {
+    font-weight: bold;
+}
+
+.font-secondary {
+    color: grey;
+}
+
+.post-img-dimension {
+    width: 100px;
+    height: 100px;
+}
+
+.float-right {
+    float: right;
+}
+
+.follow-img-dimension {
+    width: 45px;
+    height: 45px;
+}
+
+.bg-color-twitter-blue {
+    background-color: #1da1f2;
+}
+
+.remove-border {
+    border: none;
+}
+
+.fg-color-light-grey {
+    color: #D9D9D9;
+}
+
+.bg-color-dark-grey {
+    background-color: #212327;
+}
+
+.left-right-border {
+    border-left: 1px solid #212327;
+    border-right: 1px solid #212327;
+}
+
+.wd-rounded-15px {
+    border-radius: 15px;
+}
+
+.font-follow-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.font-follow-button {
+    color: black;
+    background-color: white;
+}
+
