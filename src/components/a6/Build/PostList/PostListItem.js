@@ -26,17 +26,16 @@ const PostListItem = (
                     </div>
                     <div className="col-10 col-xxl-11">
                         <span className="wd-font-main">{data.userName}</span>
-                        {data.verified ? '<i class="fa fa-check-circle"></i>' : ``}
-                        <span className="wd-font-secondary">{data.handle} &middot {data.time}</span><br/>
-                        <span className="wd-fg-color-white">{data.post_text}</span>
+                        {data.verified ? <i class="fa fa-check-circle"/> : ``}
+                        <span className="wd-font-secondary">{data.handle} · {data.time}</span><br/>
+                        <span className="wd-fg-color-white"><div dangerouslySetInnerHTML={{__html: data.post_text}} /></span>
 
                         {data.link_image === '' ? ''
                             :
                         data.link_title === '' ?
                             <div className="wd-rounded-post wd-border-post img-fluid">
-                            <img className="wd-rounded-post wd-border-post img-fluid wd-rounded-post-top wd-fill-div"
-                                 src={data.link_image}
-                            />
+                                <img className="wd-rounded-post wd-border-post img-fluid wd-rounded-post-top wd-fill-div"
+                                     src={data.link_image}/>
                             </div>
                             :
                             <div className="wd-rounded-post wd-border-post">
