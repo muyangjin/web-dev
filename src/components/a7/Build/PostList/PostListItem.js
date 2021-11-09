@@ -18,7 +18,7 @@ const PostListItem = (
 ) => {
     return(
         <>
-            <li className="list-group-item wd-bg-color-black">
+            <li className="list-group-item">
                 <div className="row">
                     <div className="col-2 col-xxl-1">
                         <img className="rounded-circle wd-post-author-img-dimension"

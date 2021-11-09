@@ -10,15 +10,15 @@ const NavigationSidebar = (
 
     return (
         <>
-            A6
+            A7
             <ul className="list-group">
-                <Link to="/a6/"
+                <Link to="/a7/"
                       className={`list-group-item list-group-item-action wd-remove-border`}>
                     <i className="fab fa-twitter"/>
                 </Link>
 
 
-                <Link to = "/a6/twitter/home"
+                <Link to = "/a7/twitter/home"
                       id="navbar-home"
                       className={`list-group-item list-group-item-action ${active === 'home'? 'active' : ''} wd-remove-border`}>
                     <div className="row">
@@ -31,7 +31,7 @@ const NavigationSidebar = (
                     </div>
                 </Link>
 
-                <Link to = "/a6/twitter/explore"
+                <Link to = "/a7/twitter/explore"
                       id="navbar-explore"
                       className={`list-group-item list-group-item-action ${active === 'explore'? 'active' : ''} wd-remove-border`}>
                     <div className="row">

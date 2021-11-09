@@ -1,0 +1,164 @@
+.input-group-text {
+    background-color: #212327;
+    border-right: none;
+    border: 0;
+    color: #6e767d;
+}
+
+.form-control {
+    color: #212327;
+    background-color: #212327;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    transition: none;
+}
+
+.wd-rounded-start {
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.wd-rounded-end {
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.wd-rounded-post-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-rounded-post-bottom {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.wd-rounded-post {
+    border-radius: 20px;
+}
+
+.wd-input-group-text {
+    background-color: white;
+    border-right: none;
+}
+
+.wd-img-caption-bottom-left-corner {
+    position: absolute;
+    bottom: -1rem;
+    left: .5rem;
+    color: #fff;
+    font-size: 35px;
+}
+
+.wd-font-main {
+    font-weight: bold;
+}
+
+.wd-font-secondary {
+    color: grey;
+}
+
+.wd-font-follow-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wd-font-follow-button {
+    color: black;
+    background-color: white;
+}
+
+
+.wd-post-img-dimension {
+    width: 100px;
+    height: 100px;
+}
+
+.wd-post-p-dimension {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-follow-img-dimension {
+    width: 45px;
+    height: 45px;
+}
+
+.wd-post-author-img-dimension {
+    width: 45px;
+    height: 45px;
+}
+
+.wd-bg-color-twitter-blue {
+    background-color: #1da1f2;
+}
+
+.wd-bg-color-dark-grey {
+    background-color: #212327;
+}
+
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-remove-border {
+    border: none;
+}
+
+.wd-left-right-border {
+    border-left: 1px solid #212327;
+    border-right: 1px solid #212327;
+}
+
+.wd-border-post {
+    border: 1px solid #282828;
+}
+
+.wd-border-post-top {
+    border-top: 1px solid #282828;
+}
+
+.wd-fg-color-light-grey {
+    color: #D9D9D9;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-fg-color-red {
+    color: red;
+}
+
+.wd-fg-color-twitter-blue {
+    color: #1da1f2;
+}
+
+.wd-fill-div {
+    width: 100%;
+}
+
+.wd-remove-text-decoration {
+    text-decoration: none;
+}
+
+.wd-home-tweets-text-area {
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+textarea::placeholder {
+    color: grey;
+}
+
+

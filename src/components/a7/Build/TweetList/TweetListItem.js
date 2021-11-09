@@ -1,34 +1,63 @@
-const PostListItem = (
+import {useDispatch} from "react-redux";
+
+const kFormatter = (num) => {
+    return Math.abs(num) > 999 ?
+        Math.sign(num)*((Math.abs(num)/1000).toFixed(1)) + 'k' :
+        Math.sign(num)*Math.abs(num)
+}
+
+const TweetListItem = (
     {data =
         {
-            "user_icon": "../../../media/user-icon-md-vs.png",
+            "_id": 345,
+            "avatar-image": "../../../media/user-icon-md-vs.png",
             "userName": "Vengeful Spirit",
             "handle": "@forTheQueen",
             "time": "5h",
             "verified": false,
-            "post_text": "I Love my Queen!!!!!!",
+            "tweet": "I Love my Queen!!!!!!",
             "link_image": "",
             "link_title": "",
             "link_summary": "",
-            "comment_count": "338",
-            "retweet_count": "43",
-            "like_count": "1,2K"
+            "stats": {
+                "comments": 338,
+                "retweets": 43,
+                "likes": 1200
+            }
         }
     }
 ) => {
+    const dispatch = useDispatch();
+    const deleteTweetClickHandler = () => {
+        dispatch({type: 'delete-tweet', data})
+    };
+
+    const likeClickHandler = () => {
+        dispatch({type: 'like-tweet', data});
+    };
+
     return(
         <>
-            <li className="list-group-item wd-bg-color-black">
+            <li className="list-group-item">
                 <div className="row">
                     <div className="col-2 col-xxl-1">
                         <img className="rounded-circle wd-post-author-img-dimension"
-                             src={data.user_icon}/>
+                             src={data.avatar_image}/>
                     </div>
                     <div className="col-10 col-xxl-11">
                         <span className="wd-font-main">{data.userName}</span>
                         {data.verified ? <i className="fa fa-check-circle"/> : ``}
-                        <span className="wd-font-secondary">{data.handle} · {data.time}</span><br/>
-                        <span className="wd-fg-color-white"><div dangerouslySetInnerHTML={{__html: data.post_text}} /></span>
+                        <span className="wd-font-secondary">{data.handle} · {data.time}</span>
+                        <a href="javascript:void(0)" onClick={deleteTweetClickHandler}>
+                            <i className="fa fa-times fa-pull-right wd-fg-color-white"/>
+                        </a>
+
+
+
+
+                        <br/>
+
+                        <span className="wd-fg-color-white"><div dangerouslySetInnerHTML={{__html: data.tweet}} /></span>
 
                         {data.link_image === '' ? ''
                             :
@@ -55,19 +84,27 @@ const PostListItem = (
                         <div className="row mt-3 mb-2">
                             <div className="col-3">
                                 <a href="#" className="wd-font-secondary wd-remove-text-decoration">
-                                    <i className="fa fa-comment me-2"/> {data.comment_count}
+                                    <i className="fa fa-comment me-2"/> {kFormatter(data.stats.comments)}
                                 </a>
                             </div>
                             <div className="col-3">
                                 <a href="#" className="wd-font-secondary wd-remove-text-decoration">
-                                    <i className="fa fa-retweet me-2"/> {data.retweet_count}
+                                    <i className="fa fa-retweet me-2"/> {kFormatter(data.stats.retweets)}
                                 </a>
                             </div>
                             <div className="col-3">
-                                <a href="#" className="wd-font-secondary wd-remove-text-decoration">
-                                    <i className="fa fa-heart me-2"/> {data.like_count}
+                                <a href="javascript:void(0)" className="wd-font-secondary wd-remove-text-decoration"
+                                   onClick={likeClickHandler}>
+                                    {
+                                        data.liked && <i className="fas fa-heart me-2" style={{color: data.liked ? "red" : "white"}}/>
+                                    }
+                                    {
+                                        !data.liked && <i className="far fa-heart me-2"/>
+                                    }
+                                    {kFormatter(data.stats.likes)}
                                 </a>
                             </div>
+
                             <div className="col-3">
                                 <a href="#" className="wd-font-secondary wd-remove-text-decoration">
                                     <i className="fa fa-external-link-alt me-2"/>
@@ -81,4 +118,4 @@ const PostListItem = (
         </>
     )
 }
-export default PostListItem;
+export default TweetListItem;

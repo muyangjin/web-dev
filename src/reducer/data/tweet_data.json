@@ -1,0 +1,56 @@
+[
+  {
+    "_id": 123,
+    "avatar_image": "../../../media/user-icon-md-rubick.png",
+    "userName": "Rubick",
+    "handle": "@rubickTheGreat",
+    "time": "23h",
+    "verified": true,
+    "tweet": "Amazing show about <a href=\"#\">@Inspiration4X</a> mission!",
+    "link_image": "../../../media/home-post-rubick.jpeg",
+    "link_title": "Rubick\"s Lore",
+    "link_summary": "Any mage can cast a spell or two, and a few may even study long enough to become a wizard, but only the most talented are allowed to be recognized as a Magus. Yet as with any sorcerer\"s circle, a sense of community has never guaranteed competitive courtesy.",
+    "liked": false,
+    "stats": {
+      "comments": 4200,
+      "retweets": 3500,
+      "likes": 37500
+    }
+  },
+  {
+    "_id": 234,
+    "avatar_image": "../../../media/user-icon-md-drawranger.png",
+    "userName": "Draw Ranger",
+    "handle": "@shootYourAss",
+    "time": "2h",
+    "verified": false,
+    "tweet": "I never miss",
+    "link_image": "../../../media/home-post-drawranger.png",
+    "link_title": "",
+    "link_summary": "",
+    "liked": false,
+    "stats": {
+      "comments": 30000,
+      "retweets": 2200,
+      "likes": 440500
+    }
+  },
+  {
+    "_id": 345,
+    "avatar_image": "../../../media/user-icon-md-vs.png",
+    "userName": "Vengeful Spirit",
+    "handle": "@forTheQueen",
+    "time": "5h",
+    "verified": false,
+    "tweet": "I Love my Queen!!!!!!",
+    "link_image": "",
+    "link_title": "",
+    "link_summary": "",
+    "liked": false,
+    "stats": {
+      "comments": 338,
+      "retweets": 43,
+      "likes": 120
+    }
+  }
+]
