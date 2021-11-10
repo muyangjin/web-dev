@@ -10,7 +10,6 @@ const NavigationSidebar = (
 
     return (
         <>
-            A6
             <ul className="list-group">
                 <Link to="/a6/"
                       className={`list-group-item list-group-item-action wd-remove-border`}>

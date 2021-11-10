@@ -1,3 +1,11 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
 .input-group-text {
     background-color: #212327;
     border-right: none;
@@ -59,6 +67,10 @@
 
 .wd-font-secondary {
     color: grey;
+}
+
+.wd-font-large {
+    font-size: 20px
 }
 
 .wd-font-follow-title {
@@ -135,6 +147,14 @@
     color: white;
 }
 
+.wd-bg-color-white {
+    background-color: white;
+}
+
+.wd-fg-color-black {
+    color: black;
+}
+
 .wd-fg-color-red {
     color: red;
 }
@@ -161,4 +181,53 @@ textarea::placeholder {
     color: grey;
 }
 
+.wd-profile-picture {
+    border: black 5px solid;
+    width: 120px;
+    height: 120px;
+    /*max-width: 100%;*/
+}
 
+.wd-pos-relative-nudge-up-right {
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+
+.wd-edit-file-button {
+    color: white;
+    background-color: black;
+    border: 1px white solid;
+}
+
+.wd-save-button {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+.wd-edit-profile-section {
+    border: 1px solid #282828;
+    border-radius: 5px
+}
+
+.wd-negative-top-margin {
+    margin-top: -57px;
+}
+
+.wd-edit-profile-text-area {
+    background-color: #060606;
+    color: white;
+    border: 0;
+    resize: none;
+}
+
+.wd-edit-profile-input {
+    background-color: #060606;
+    color: white;
+    border: 0;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}

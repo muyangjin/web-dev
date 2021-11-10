@@ -52,9 +52,6 @@ const TweetListItem = (
                             <i className="fa fa-times fa-pull-right wd-fg-color-white"/>
                         </a>
 
-
-
-
                         <br/>
 
                         <span className="wd-fg-color-white"><div dangerouslySetInnerHTML={{__html: data.tweet}} /></span>

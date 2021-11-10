@@ -10,7 +10,6 @@ const NavigationSidebar = (
 
     return (
         <>
-            A7
             <ul className="list-group">
                 <Link to="/a7/"
                       className={`list-group-item list-group-item-action wd-remove-border`}>
@@ -96,7 +95,7 @@ const NavigationSidebar = (
                     </div>
                 </Link>
 
-                <Link to = "/"
+                <Link to = "/a7/twitter/profile"
                       id="navbar-profile"
                       className={`list-group-item list-group-item-action ${active === 'profile'? 'active' : ''} wd-remove-border`}>
                     <div className="row">
